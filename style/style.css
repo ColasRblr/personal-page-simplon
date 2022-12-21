@@ -1,6 +1,6 @@
-/* FORMS */
+/* GENERAL */
 
-    h1 {
+  h2 {
     background-color: blue;
     color:white;
     display: flex;
@@ -8,6 +8,9 @@
     font-size: 1.5em;
     padding:0.4em;
     }
+
+
+/* FORMS */
 
     .form_line, .button, .label {
     display: flex;
@@ -25,7 +28,6 @@
         width: 15%;
     }
 
-    
     .btn {
     font-size: 1em;
     border-radius: 10px;
@@ -40,4 +42,23 @@
     color: white;
     cursor:pointer;
     }
-    
+
+    /* MENU */
+
+    h3{
+    color:yellow;
+    display:flex;
+    flex-direction: center;
+    }
+
+    nav{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    }
+
+    a{
+        text-decoration: none;
+        margin: 1em;
+        border-bottom: solid 1px yellow;
+    }
