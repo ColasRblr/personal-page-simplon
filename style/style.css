@@ -1,21 +1,34 @@
+/* GENERAL */
+
+  body{
+    margin:auto;
+  }
+
+  h2 {
+    background-color: #72BDC1;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding:0.4em;
+    width:80vw;
+    }
+
+.page_without_extensions {
+    display: flex;
+}
 
  /* Header */
     .header{
         background-color: #72BDC1;
         height: 20vw;
-        border-bottom:2px solid blue ;
         width: 100%;
     }
-   
-    
-    .body{
-        margin: 0;
-    }
+
     .title{
         color: #DCC812;
         text-align: center;
         font-size: 3vw;
-        background-color: #72BDC1;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
@@ -30,41 +43,34 @@
         background-color: aliceblue;
         color: aliceblue;
     }
+    
     .flex{
         display: flex;
         flex-direction: row;
         height: 17vw;
     }
     
+/* INDEX */
 
-/* GENERAL */
-
-  body{
-    margin:auto;
-  }
-
-  h2 {
-    background-color: blue;
-    color:white;
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    padding:0.4em;
-    }
-*/
 
 /* FORMS */
 
+    form{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .form_line, .button, .label {
     display: flex;
     margin: 5px;
-    width:50%;
+    width: 50%;
     }
     
     input {
-    width: 50%;
     border-radius:10px;
     margin:0.5em;
+    width: 50%;
     }
     
     .radio {
@@ -85,7 +91,7 @@
     color: white;
     cursor:pointer;
     }
-*/
+    
     /* MENU */
   
     h3{
@@ -97,7 +103,7 @@
     nav{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     }
 
     a{
