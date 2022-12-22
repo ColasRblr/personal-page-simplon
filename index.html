@@ -5,36 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'acueil</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 <body>
+    <header class="header">
+        <div class="flex">
+            <img src="/style/photo/pic_28.png" alt="profil picture" class="picture" id="pic">
+            <h1 class="title">Bienvenue sur ma page <br> personnelle</h1>
+        </div>
+        <h2 class="texte">Je suis en ... et j'apprends le HTML et le CSS.</h2>
+    </header>
  
-    <div class ="header">
-       <h1>Bien venue sur ma page personelle</h1>
-       <p> Je suis en formation et j'apprend le html et css </p>
-       <img src="./style/photo/pic_28.png" alt="logo">
- </div>
- 
- <ul>
-    <li>
-        <a href="#"> Menu</a>
-    </li>
-    <li>
-        <a href="#"> Acceuil</a>
-    </li>
-    <li>
-        <a href="#"> Mes projets
-        </a>
-        <li>
-            <a href="#"> Inscrivez-vous</a>
-        </li>
-        <li>
-            <a href="#"> Contacter moi</a>
-        </li>
- </ul>
+    <section class="page_without_extensions">   
+    
+        <nav class="menu">  
+        <h3>Menu</h3>
+        <a href="index.html">Accueil</a>
+        <a href="views/CV.html">Mon CV</a>
+        <a href="views/projects.html">Mes projets</a>
+        <a href="views/register.html">Inscrivez-vous</a>
+        <a href="views/contact.html">Contactez-moi</a>
+    </nav> 
 
-<div>
+    <section id="index_sections">
+    <div>
     <h2>
         A propos de moi 
     </h2>
@@ -43,23 +38,26 @@
 </div>
 
 <div>
-    <h3>
+    <h2>
         A propos de mon site
-    </h3>
+    </h2>
     <p>
         Vous allez découvrir tout sur moi, sur mes passions et mes projets.
     </p>
 </div>
 
 <div>
-<h4> Je vous souhaite une bonne visite</h4>
+<h2> Je vous souhaite une bonne visite</h2>
 <p>Toutes les remarques et sougestions pour améliorer mon site et rendre sa visite plus agréable, sont les bienvenues </p>
 </div>
-<div class="footer">
+</section>
+</section>
+
+<footer>
     <p>
-        copyright (c) 2022 <a href="https://simplon-grenoble.com/">CDA-FUllstack</a>
+        copyright(c) 2022 <a href="https://simplon-grenoble.com/">CDA-FUllstack</a>
     </p>
-</div>
+</footer>
 
 </body>
 </html>
