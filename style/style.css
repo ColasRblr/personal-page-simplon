@@ -126,7 +126,6 @@
     .cv_aside {
         display: flex;
         flex-direction: column;
-        width:50%;
     }
 
     #skills, #education, #work_experience, #hobby, #presentation {
@@ -136,3 +135,11 @@
         display: flex;
         justify-content: center;
     }
+
+    #skills {
+        width : 30%;
+    }
+
+   #cv_right {
+    width: 70%;;
+   }
