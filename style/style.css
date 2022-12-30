@@ -2,6 +2,7 @@
 
   body{
     margin:auto;
+    background-color: #B598CB;
   }
 
   h2 {
@@ -12,6 +13,11 @@
     font-size: 1.5em;
     padding:0.4em;
     width:80vw;
+    margin : 20px 20px;
+    }
+
+    h4 {
+        font-size: 2em;
     }
 
 .page_without_extensions {
@@ -19,24 +25,34 @@
 }
 
  /* Header */
+
     .header{
+        display: flex;
         background-color: #72BDC1;
         height: 20vw;
         width: 100%;
     }
 
     .title{
+        display: flex;
         color: #DCC812;
         text-align: center;
         font-size: 3vw;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .titles {
+        display:flex;
+        flex-direction: column;
+        margin-left: 15vw;
     }
    
     .texte{
         color: aliceblue;
         text-align: center;
-        font-size: 1vw;
+        font-size: 2vw;
+        margin-bottom: 2vw;
     }
     .picture{
         margin: 40px;
@@ -44,22 +60,26 @@
         color: aliceblue;
     }
     
-    .flex{
-        display: flex;
-        flex-direction: row;
-        height: 17vw;
-    }
-    
+
 /* INDEX */
 
-
+#index_sections {
+    display: flex;
+        flex-direction: column;
+        width: 100vw;
+        background-color: white;
+        margin: 20px;
+}
 /* FORMS */
 
     form{
+        background-color: white;
         width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin : 20px;
+        margin-bottom : 10vh;
     }
     .form_line, .button, .label {
     display: flex;
@@ -118,9 +138,12 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
+        background-color: white;
+        margin: 20px;
+        margin-bottom : 10vh;
     }
 
-    h4 {
+    h5 {
         color:black;
         font-size: 1.1em;
     }
@@ -149,3 +172,50 @@
    #cv_right {
     width: 70%;;
    }
+
+   /* Projects */
+   .btn_project{
+    width: 20%;
+    height: 10vw;
+    box-shadow: 0 0 15px #cccccc;
+    border-radius: 14px;
+    background-color: white;
+    padding: 10px;
+    margin: 5% 7% 5% 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn_project:hover{
+    transform: scale(1.1);
+}
+.l_1, .l_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project{
+    background-color: #72BDC1;
+}
+
+.projects-page {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        background-color: white;
+        margin: 20px;
+        margin-bottom : 10vh;
+    }
+
+    /* FOOTER */
+
+    footer {
+    background-color: #72BDC1;    
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    bottom:0;
+
+    }
