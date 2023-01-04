@@ -219,3 +219,42 @@
     bottom:0;
 
     }
+
+
+    @media only screen and (max-width: 800px) {
+        #cv_section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #index_sections {
+            width: auto;
+            font-size: smaller;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .menu {
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            font-size: smaller;
+        }
+        
+        .page_without_extensions {
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+        
+
+        .cv-page {
+            width: 100%;
+        }
+
+        #cv_right {
+            width: 100%;
+        }
+    }
