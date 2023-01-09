@@ -72,6 +72,17 @@
 }
 /* FORMS */
 
+    .form-container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+    }
+
     form{
         background-color: white;
         width: 100vw;
@@ -134,14 +145,22 @@
 
     /* CV */
 
+    .cv {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
     .cv_page {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        align-items: center;
+        width: 100%;
         background-color: white;
-        margin: 20px;
         margin-bottom : 10vh;
     }
+
+    
 
     h5 {
         color:black;
@@ -197,6 +216,11 @@
 .project{
     background-color: #72BDC1;
 }
+
+.project-container {
+    display: flex;
+    justify-content: center;
+} 
 
 .projects-page {
         display: flex;
