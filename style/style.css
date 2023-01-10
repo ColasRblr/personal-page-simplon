@@ -16,9 +16,6 @@
     margin : 20px 20px;
     }
 
-    h4 {
-        font-size: 2em;
-    }
 
 .page_without_extensions {
     display: flex;
@@ -29,15 +26,16 @@
     .header{
         display: flex;
         background-color: #72BDC1;
-        height: 20vw;
+        height: 120px;
         width: 100%;
+        font-size: smaller;
+        align-items: center;
     }
 
     .title{
         display: flex;
         color: #DCC812;
         text-align: center;
-        font-size: 3vw;
         align-items:center;
         justify-content: center;
     }
@@ -45,19 +43,20 @@
     .titles {
         display:flex;
         flex-direction: column;
-        margin-left: 15vw;
+        text-align: center;
+        width: 100%;
+        
     }
    
     .texte{
         color: aliceblue;
         text-align: center;
-        font-size: 2vw;
-        margin-bottom: 2vw;
     }
     .picture{
-        margin: 40px;
+        margin: 40px 40px;
         background-color: aliceblue;
         color: aliceblue;
+        height: 100%;
     }
     
 
@@ -308,6 +307,11 @@ h5#centrer{
 
 
     @media only screen and (max-width: 800px) {
+        .picture {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+        }
         #cv_section {
             display: flex;
             flex-direction: column;
@@ -321,6 +325,12 @@ h5#centrer{
     }
 
     @media only screen and (max-width: 500px){
+        .picture {
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+        }
+        
         .menu {
             width: auto;
             display: flex;
