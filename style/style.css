@@ -196,16 +196,26 @@
         display: flex;
     }
 
+    #cv-section {
+        width: 100%;
+    }
+
     ul {
         padding-inline-start: 10px;
+        width: 100%;
     }
 
     .cv_aside {
         display: flex;
         flex-direction: column;
+        width: 100% !important;
     }
 
-    #skills, #education, #work_experience, #hobby, #presentation {
+    li {
+        width: 100%;
+    }
+
+    #cv_section, #skills, #education, #work_experience, #hobby, #presentation {
         background-color: grey;
         margin : 1.5em;
         padding: 1px;
@@ -267,6 +277,7 @@
 
 h5#centrer{
     text-align: center;
+    width: 100%;
 }
 /* #cadre1 .cadre1P{
     display: flex;
